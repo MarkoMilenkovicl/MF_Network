@@ -3,10 +3,12 @@
   margin: 0;
 }
 
+
 @font-face {
   font-family: "Dela Gothic One";
   src: url(/fonts/dela-gothic-one/DelaGothicOne-Regular.ttf) format("truetype");
 }
+
 @font-face {
   font-family: "Poppins";
   src: url(/fonts/poppins/Poppins-SemiBold.otf) format("truetype"),
@@ -15,6 +17,10 @@
     url(/fonts/poppins/Poppins-MediumItalic.otf) format("truetype"),
     url(/fonts/poppins/Poppins-Bold.otf) format("truetype");
 }
+
+/* #Global Container
+================================================== */
+
 .container {
   padding-left: 12.5vw;
   padding-right: 12.5vw;
@@ -290,9 +296,14 @@ a {
   height: 37.187vw;
 }
 
-/*swiper*/
+/* #Swiper Slider Overrides
+================================================== */
+.swiper-wrapper{
+  align-items: center;
+}
 .third_section_slider {
   width: 46.45vw;
+ 
 }
 .third_section_slider
   .swiper-pagination
@@ -317,18 +328,22 @@ a {
 .slideImgOne {
   width: 8.1885vw;
   height: 8.1885vw;
+ 
 }
 .slideImgTwo {
   width: 8.1885vw;
+  
   height: 8.1885vw;
 }
 .slideImgThree {
   width: 12.175vw;
+
   height: 3.7838vw;
  
 }
 .slideImgFour {
   width: 12.03vw;
+
   height: 1.8229vw;
  
 }
@@ -723,7 +738,7 @@ a {
 
 /*PURPLE section*/
 .purple_box {
-  height: 25.528vw;
+  height: 16.528vw;
   border-radius: 24px;
   background-image: linear-gradient(to bottom right, #503e9d, #5b7bfb);
   display: flex;
@@ -745,19 +760,35 @@ a {
     padding-left: 10.4166vw;
     color: #fff;
 }
-
+.olympus_game_logo{
+  margin-left: 0 auto;
+  width: 25vw;
+  height: 12vw;
+}
+.olympus_game_logo_mobile{
+  display: none;
+}
+.purple_box_right_Side{
+  margin-top: 2vw;
+  margin-left: 5vw;
+}
 .purple_box_right_Side_first_Blur{
+    position: absolute;
     width: 5vw;
     height: 5vw;
     animation: floatDownOne 5s ease-in-out infinite;
 }
 .purple_box_right_Side_secound_Blur{
+  position: absolute;
     width: 5vw;
     height: 5vw;
     animation: floatUpOne 5s ease-in-out infinite;
 }
 .purple_box_right_Side_third_Blur{
-    width: 5vw;
+  
+  position: absolute;
+  width: 5vw;
+    
     height: 5vw;
     animation: floatDownOne 5s ease-in-out infinite;
 }
@@ -948,7 +979,7 @@ a {
   border-radius: 12px;
 }
 
-
+/*Animations*/
 
 
 
@@ -1036,13 +1067,13 @@ a {
         transform: translatey(0px);
     }
     25%{
-        transform: translatex(20vw);
+        transform: translatex(-10vw);
     }
     50% {
         transform: translatey(-0.88416vw);
     }
     70%{
-        transform: translatey(20.00416vw);
+        transform: translatey(5.00416vw);
     }
     100% {
         transform: translatey(0px);
@@ -1054,13 +1085,13 @@ a {
         transform: translatey(0px);
     }
     25%{
-        transform: translatex(10vw);
+        transform: translatex(-15vw);
     }
     50% {
         transform: translatey(5.00416vw);
     }
     70%{
-        transform: translatex(10.00416vw);
+        transform: translatex(-10.00416vw);
     }
     
     100% {

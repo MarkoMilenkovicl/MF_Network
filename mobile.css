@@ -352,17 +352,34 @@ font-size: 5.33333vw;
     width: 76vw;
     height: 116vw;
   }
+  .purple_box_p1{
+    margin-top: 5.066666vw;
+    font-size: 4.26666666vw;
+    margin-bottom: 5vw;
+    text-align: center;
+    
+      }
+
   .purple_box_p2{
-    margin-top: 50vw;
+    margin-top: 10vw;
     width: 60.8vw;
     height: 30.1333vw;
     font-size: 3.2vw;
+    text-align: center;
+  }
+  .olympus_game_logo{
+    display: none;
+  }
+  .olympus_game_logo_mobile{
+    display: block;
+    width: 65vw;
+    height: 35vw;
+    margin-left: 6vw;
+    
   }
   
-  .purple_box_p1{
-margin-top: 5.066666vw;
-font-size: 4.26666666vw;
-
+  .purple_box_right_Side{
+    display: none;
   }
 
   .purple_box_right_Side_first_Blur{
